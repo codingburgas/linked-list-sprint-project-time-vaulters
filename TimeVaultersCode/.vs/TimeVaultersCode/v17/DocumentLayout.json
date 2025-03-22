@@ -1,0 +1,71 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\BubbleSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\BubbleSort.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\BubbleSort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\BubbleSort.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BubbleSort.h",
+              "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\BubbleSort.h",
+              "RelativeDocumentMoniker": "TimeVaultersCode\\BubbleSort.h",
+              "ToolTip": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\BubbleSort.h",
+              "RelativeToolTip": "TimeVaultersCode\\BubbleSort.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-03-22T19:41:49.437Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "BubbleSort.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\BubbleSort.cpp",
+              "RelativeDocumentMoniker": "TimeVaultersCode\\BubbleSort.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\BubbleSort.cpp",
+              "RelativeToolTip": "TimeVaultersCode\\BubbleSort.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T19:25:22.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\main.cpp",
+              "RelativeDocumentMoniker": "TimeVaultersCode\\main.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\main.cpp",
+              "RelativeToolTip": "TimeVaultersCode\\main.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-03-22T19:21:40.439Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
