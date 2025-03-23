@@ -1,0 +1,7 @@
+		~ Welcome to Time Vault ~
+
+
+  1) Search
+  2) Options
+  3) Developers
+  4) Exit

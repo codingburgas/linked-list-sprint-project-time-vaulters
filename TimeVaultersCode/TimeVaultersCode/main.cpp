@@ -1,9 +1,17 @@
 #include <iostream>
 #include "BubbleSort.h"
 #include "HistoricEvent.h"
+#include "Output.h"
 
 int main()
 {
+	int choice;
+
+	mainMenu();
+
+	std::cin >> choice;
+
+
 	while (true) {
 		std::cout << "Enter the number of events you want to sort: ";
 		int size;
