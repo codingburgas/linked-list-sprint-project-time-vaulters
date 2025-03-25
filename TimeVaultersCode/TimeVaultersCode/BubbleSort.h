@@ -1,10 +1,4 @@
 #pragma once
-#include <string>
+#include "HistoricEvent.h"
 
-struct HistoricEvent {
-    std::string name;
-    int year;
-    std::string description;
-};
-
-void BubbleSort(HistoricEvent event[], int n);
+void BubbleSort(HistoricEvent* head);
