@@ -1,7 +1,9 @@
-		~ Welcome to Time Vault ~
+		~ WELCOME TO TIME VAULT ~
 
 
-  1) Search
-  2) Options
-  3) Developers
-  4) Exit
+ 1) Search
+ 2) Options
+ 3) Developers
+ 4) Exit
+
+  Your choice: 

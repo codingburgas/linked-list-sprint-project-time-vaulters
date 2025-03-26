@@ -1,0 +1,8 @@
+		~ OPTIONS ~
+
+1) Write a Historical Event
+2) Edit a Historical Event
+3) Delete a Historical Event
+4) Go Back
+
+Your choice: 
