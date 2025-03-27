@@ -136,6 +136,11 @@
     <ClInclude Include="HistoricEvent.h" />
     <ClInclude Include="Output.h" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\TimeVaulters_Tests\TimeVaulters_Tests.vcxproj">
+      <Project>{b81ffb17-e905-49b9-bea2-254af4751648}</Project>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>

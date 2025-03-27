@@ -2,7 +2,10 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\AtomicHD\source\repos\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaultersCode.exe</FullPath>
+      <FullPath>C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaulters_Tests.dll</FullPath>
+    </ProjectOutput>
+    <ProjectOutput>
+      <FullPath>C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaultersCode.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

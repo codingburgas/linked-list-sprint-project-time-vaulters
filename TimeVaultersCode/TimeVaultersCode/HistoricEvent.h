@@ -3,8 +3,8 @@
 
 struct HistoricEvent {
     std::string name;
-    int year;
+    int year = 0;
     std::string description;
-    HistoricEvent* prev;
-    HistoricEvent* next;
+    HistoricEvent* prev = nullptr;
+    HistoricEvent* next = nullptr;
 };
