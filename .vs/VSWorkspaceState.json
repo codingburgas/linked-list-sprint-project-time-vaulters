@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\TimeVaultersCode",
+    "\\TimeVaultersCode\\TimeVaultersCode",
+    "\\TimeVaultersCode\\TimeVaulters_Tests"
   ],
+  "SelectedNode": "\\TimeVaultersCode\\TimeVaulters_Tests\\TimeVaulters_Tests.cpp",
   "PreviewInSolutionExplorer": false
 }

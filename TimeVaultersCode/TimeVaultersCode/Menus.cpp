@@ -8,8 +8,6 @@
 void optionsMenu()
 {
 
-    std::cout << std::endl << std::endl;
-
     std::ifstream inputFile("../Assets/Menus/OptionsMenu.txt");
 
     char ch;
@@ -25,6 +23,8 @@ void optionsMenu()
     switch (choice)
     {
     case 4:
+        system("cls");
+
         mainMenu();
         break;
     }
@@ -32,8 +32,6 @@ void optionsMenu()
 
 void developerPage()
 {
-
-    std::cout << std::endl << std::endl;
 
     std::ifstream inputFile("../Assets/Menus/DeveloperPage.txt");
 
@@ -50,13 +48,15 @@ void developerPage()
     switch (choice)
     {
     case 1:
+        system("cls");
+
         mainMenu();
         break;
     }
-}void mainMenu()
-{
+}
 
-    std::cout << std::endl << std::endl;
+void mainMenu()
+{
 
         std::ifstream inputFile("../Assets/Menus/MainMenu.txt");
 
@@ -77,10 +77,14 @@ void developerPage()
                 break;
 
             case 2:
+                system("cls");
+
                 optionsMenu();
                 break;
 
             case 3:
+                system("cls");
+
                 developerPage();
                 break;
             }
