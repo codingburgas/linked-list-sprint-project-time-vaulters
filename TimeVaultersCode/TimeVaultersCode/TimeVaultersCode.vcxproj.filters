@@ -24,6 +24,9 @@
     <ClCompile Include="Menus.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NewEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="BubbleSort.h">
@@ -33,6 +36,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="HistoricEvent.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="NewEvents.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

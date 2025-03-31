@@ -57,7 +57,7 @@ void developerPage()
 
 void mainMenu()
 {
-
+	    system("cls");
         std::ifstream inputFile("../Assets/Menus/MainMenu.txt");
 
         char ch;
@@ -70,22 +70,26 @@ void mainMenu()
 
         std::cin >> choice;
 
-            switch (choice)
-            {
-            case 1:
-                //vaultSearch();
-                break;
+        switch (choice)
+        {
+        case 1:
+            //vaultSearch();
+            break;
 
-            case 2:
-                system("cls");
+        case 2:
+            system("cls");
 
-                optionsMenu();
-                break;
+            optionsMenu();
+            break;
 
-            case 3:
-                system("cls");
+        case 3:
+            system("cls");
 
-                developerPage();
-                break;
-            }
+            developerPage();
+            break;
+        case 4:
+            system("cls");
+            exit(0);
+            break;
+        }
 }
