@@ -2,8 +2,8 @@
 #include <fstream>
 #include <string>
 #include "Output.h"
-
-
+#include "DeleteEvent.h"
+#include "NewEvents.h"
 
 void optionsMenu()
 {
@@ -22,6 +22,17 @@ void optionsMenu()
 
     switch (choice)
     {
+	case 1:
+	system("cls");
+    InputEvents();
+	break;
+
+    case 3:
+		system("cls");
+		deleteEvent();
+		break;
+        
+
     case 4:
         system("cls");
 

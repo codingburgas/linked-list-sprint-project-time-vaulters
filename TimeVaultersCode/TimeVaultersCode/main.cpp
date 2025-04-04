@@ -7,5 +7,5 @@
 int main()
 {
 	mainMenu();
-	InputEvents();
+	InputEvents(); 
 }

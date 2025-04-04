@@ -2,7 +2,6 @@
 #include "BubbleSort.h"
 #include "Output.h"
 #include <fstream>
-#include <algorithm>
 #include <filesystem> // For creating directories
 
 void InputEvents() {
@@ -47,8 +46,9 @@ void InputEvents() {
 
         HistoricEvent* current = head;
         int index = 1;
+		std::cout << "\nSorted Events:\n";
         while (current) {
-            std::cout << "Event " << index++ << ": " << current->name << "| year " << current->year << " - " << current->description << std::endl << std::endl;
+            std::cout << "Event " << index++ << ": " << current->name << "| year " << current->year << " - " << current->description << std::endl;
 
             // Create a file with the event name as the title in the HistoricEvents folder
             std::filesystem::path filePath = dirPath / (current->name + ".txt");
@@ -59,7 +59,7 @@ void InputEvents() {
             if (outFile) {
                 outFile << "Name Of Event: " << current->name << "\n";
                 outFile << "The Year It Takes Place: " << current->year << "\n";
-                outFile << "Description: \n" << current->description << "\n";
+                outFile << "Description:" << current->description << "\n";
                 outFile.close();
             }
             else {
