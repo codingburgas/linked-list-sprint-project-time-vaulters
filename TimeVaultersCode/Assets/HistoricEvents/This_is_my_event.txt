@@ -1,3 +1,0 @@
-Name Of Event: This is my event
-The Year It Takes Place: 200
-Description:I like this event a lot :)

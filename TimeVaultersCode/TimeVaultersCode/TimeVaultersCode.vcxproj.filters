@@ -18,23 +18,17 @@
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="BubbleSort.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Menus.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="NewEvents.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="DeleteEvent.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="NewEvents.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BubbleSort.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="Output.h">
       <Filter>Header Files</Filter>
     </ClInclude>

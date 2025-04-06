@@ -105,6 +105,8 @@
       <PreprocessorDefinitions>_DEBUG;_CONSOLE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ConformanceMode>true</ConformanceMode>
       <LanguageStandard>stdcpp17</LanguageStandard>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <SubSystem>Console</SubSystem>
@@ -128,20 +130,21 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="BubbleSort.cpp" />
     <ClCompile Include="DeleteEvent.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menus.cpp" />
     <ClCompile Include="NewEvents.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="BubbleSort.h" />
     <ClInclude Include="DeleteEvent.h" />
     <ClInclude Include="HistoricEvent.h" />
     <ClInclude Include="NewEvents.h" />
     <ClInclude Include="Output.h" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\TimeVaultersLibrary\TimeVaultersLibrary.vcxproj">
+      <Project>{0f87fdcd-8a23-4681-b39f-a5cbb78a07a9}</Project>
+    </ProjectReference>
     <ProjectReference Include="..\TimeVaulters_Tests\TimeVaulters_Tests.vcxproj">
       <Project>{b81ffb17-e905-49b9-bea2-254af4751648}</Project>
     </ProjectReference>
