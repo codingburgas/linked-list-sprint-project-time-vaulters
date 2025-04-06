@@ -2,45 +2,51 @@
 #include "Output.h"
 
 void deleteEvent() {
-    
-
     while (true) {
-
         std::string dirPath = "../Assets/HistoricEvents";
 
-        std::vector<std::string> eventFiles;
+        EventNode* head = nullptr;
+        EventNode* tail = nullptr;
 
         // Read all .txt files in the directory
         for (std::filesystem::directory_entry entry : std::filesystem::directory_iterator(dirPath)) {
-            eventFiles.push_back(entry.path().filename().string());
+            EventNode* newNode = new EventNode(entry.path().filename().string());
+            if (!head) {
+                head = newNode;
+                tail = newNode;
+            }
+            else {
+                tail->next = newNode;
+                tail = newNode;
+            }
         }
 
         // Display the list of events
         std::cout << "List of events:\n";
-        for (int i = 0; i < eventFiles.size(); ++i) {
-            std::cout << i + 1 << ". " << eventFiles[i] << "\n";
+        EventNode* current = head;
+        int index = 1;
+        while (current) {
+            std::cout << index++ << ". " << current->fileName << "\n";
+            current = current->next;
         }
 
-        std::cout << "Enter the number or name of the event to delete: ";
-        std::string input;
-        std::cin >> input;
+        std::cout << "Enter the number of the event to delete: ";
+        int selectedIndex;
+        std::cin >> selectedIndex;
+        selectedIndex--;
 
-        int index = 0;
         // Find the event file to delete
         std::string fileToDelete;
-        if (index >= 0 && index < eventFiles.size()) {
-            fileToDelete = eventFiles[index];
+        current = head;
+        for (int i = 0; i < selectedIndex && current; ++i) {
+            current = current->next;
         }
-        else {
-            for (std::string file : eventFiles) {
-                if (file == input) {
-                    fileToDelete = file;
-                    break;
-                }
-            }
+        if (current) {
+            fileToDelete = current->fileName;
         }
+
         std::cout << "\n";
-        // Deletes the event file
+        // Delete the event file
         if (!fileToDelete.empty()) {
             std::filesystem::remove(dirPath + "/" + fileToDelete);
             std::cout << "Event " << fileToDelete << " deleted successfully.\n";
@@ -48,10 +54,17 @@ void deleteEvent() {
         else {
             std::cout << "Event not found.\n";
         }
+
+        while (head) {
+            EventNode* temp = head;
+            head = head->next;
+            delete temp;
+        }
+
         std::cout << "Do you want to delete more events? (y/n): ";
         char choice;
         std::cin >> choice;
-		system("cls");
+        system("cls");
         if (choice != 'y') {
             mainMenu();
         }
