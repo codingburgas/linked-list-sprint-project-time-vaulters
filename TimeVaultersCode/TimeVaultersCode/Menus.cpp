@@ -1,10 +1,36 @@
 #include <iostream>
 #include <fstream>
+#include <sstream>
 #include <string>
 #include "Output.h"
 #include "DeleteEvent.h"
 #include "NewEvents.h"
 #include "EditEvents.h"
+
+void invalidInput()
+{
+    std::cin.clear();
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+
+    system("cls");
+
+    std::cout << "[!] Please enter a valid option." << std::endl;
+    std::cout << "Press Enter to continue...";
+
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
+    system("cls");
+}
+
+bool isValidIntInput(int& result) {
+    std::string input;
+    std::getline(std::cin, input);
+
+    std::stringstream ss(input);
+    ss >> result;
+
+    return !(ss.fail() || !ss.eof());
+}
+
 
 void optionsMenu()
 {
@@ -21,29 +47,44 @@ void optionsMenu()
 
     std::cin >> choice;
 
-    switch (choice)
+    if (std::cin.fail())
     {
-	case 1:
-	    system("cls");
-        InputEvents();
-	    break;
+        invalidInput();
+        optionsMenu();
+    }
 
-	case 2:
-		system("cls");
-		editEvents();
-		break;
+    else if (choice > 0 && choice < 5)
+    {
 
-    case 3:
-		system("cls");
-		deleteEvent();
-		break;
-        
+        switch (choice)
+        {
+        case 1:
+            system("cls");
+            InputEvents();
+            break;
 
-    case 4:
-        system("cls");
+		case 2:
+			system("cls");
+			editEvents();
+			break;
 
-        mainMenu();
-        break;
+        case 3:
+            system("cls");
+            deleteEvent();
+            break;
+
+
+        case 4:
+            system("cls");
+            mainMenu();
+            break;
+        }
+
+    }
+    else
+    {
+        invalidInput();
+        optionsMenu();
     }
 }
 
@@ -59,33 +100,51 @@ void developerPage()
 
         std::cout << ch;
     };
-    
+
     std::cin >> choice;
 
-    switch (choice)
+    if (std::cin.fail())
     {
-    case 1:
-        system("cls");
+        invalidInput();
+        optionsMenu();
+    }
 
+    else if (choice == 1)
+    {
+        system("cls");
         mainMenu();
-        break;
+    }
+
+    else
+    {
+        invalidInput();
+        developerPage();
     }
 }
 
 void mainMenu()
 {
-	    system("cls");
-        std::ifstream inputFile("../Assets/Menus/MainMenu.txt");
+    system("cls");
+    std::ifstream inputFile("../Assets/Menus/MainMenu.txt");
 
-        char ch;
-        int choice;
+    char ch;
+    int choice;
 
-        while (inputFile.get(ch)) {
+    while (inputFile.get(ch)) {
 
-            std::cout << ch;
-        };
+        std::cout << ch;
+    };
 
-        std::cin >> choice;
+    std::cin >> choice;
+
+    if (std::cin.fail())
+    {
+        invalidInput();
+        mainMenu();
+    }
+
+    else if (choice > 0 && choice < 5)
+    {
 
         switch (choice)
         {
@@ -109,4 +168,11 @@ void mainMenu()
             exit(0);
             break;
         }
+    }
+
+    else
+    {
+        invalidInput();
+        mainMenu();
+    }
 }
