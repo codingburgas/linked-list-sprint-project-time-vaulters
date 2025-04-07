@@ -23,7 +23,7 @@ void InputEvents() {
 
         for (int i = 0; i < size; i++) {
             HistoricEvent* newEvent = new HistoricEvent();
-            std::cout << "\n Enter the name of the event: ";
+            std::cout << "\nEnter the name of the event: ";
             std::getline(std::cin, newEvent->name);
             std::cout << "Enter the year of the event: ";
             std::cin >> newEvent->year;
@@ -57,9 +57,9 @@ void InputEvents() {
             std::replace(fileName.begin(), fileName.end(), ' ', '_');
             std::ofstream outFile(fileName);
             if (outFile) {
-                outFile << "Name Of Event: " << current->name << "\n";
-                outFile << "The Year It Takes Place: " << current->year << "\n";
-                outFile << "Description:" << current->description << "\n";
+                outFile << "Name Of Event:\n" << current->name << "\n";
+                outFile << "The Year It Takes Place:\n" << current->year << "\n";
+                outFile << "Description:\n" << current->description << "\n";
                 outFile.close();
             }
             else {
@@ -70,7 +70,7 @@ void InputEvents() {
             delete temp;
         }
 
-        std::cout << "Do you want to sort more events? (y/n): ";
+        std::cout << "Do you want to add more events? (y/n): ";
         char choice;
         std::cin >> choice;
         if (choice != 'y') {

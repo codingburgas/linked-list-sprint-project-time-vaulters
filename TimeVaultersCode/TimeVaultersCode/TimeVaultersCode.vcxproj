@@ -131,12 +131,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="DeleteEvent.cpp" />
+    <ClCompile Include="EditEvents.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menus.cpp" />
     <ClCompile Include="NewEvents.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeleteEvent.h" />
+    <ClInclude Include="EditEvents.h" />
     <ClInclude Include="HistoricEvent.h" />
     <ClInclude Include="NewEvents.h" />
     <ClInclude Include="Output.h" />

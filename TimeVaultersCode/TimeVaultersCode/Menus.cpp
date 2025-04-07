@@ -4,6 +4,7 @@
 #include "Output.h"
 #include "DeleteEvent.h"
 #include "NewEvents.h"
+#include "EditEvents.h"
 
 void optionsMenu()
 {
@@ -23,9 +24,14 @@ void optionsMenu()
     switch (choice)
     {
 	case 1:
-	system("cls");
-    InputEvents();
-	break;
+	    system("cls");
+        InputEvents();
+	    break;
+
+	case 2:
+		system("cls");
+		editEvents();
+		break;
 
     case 3:
 		system("cls");
