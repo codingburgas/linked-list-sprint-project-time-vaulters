@@ -30,6 +30,7 @@ void InputEvents() {
             std::cin.ignore(); // Ignores the newline character left in the input buffer after reading year
             std::cout << "Enter the description of the event: ";
             std::getline(std::cin, newEvent->description);
+
             newEvent->prev = tail;
             newEvent->next = nullptr;
 
@@ -47,6 +48,7 @@ void InputEvents() {
         HistoricEvent* current = head;
         int index = 1;
 		std::cout << "\nSorted Events:\n";
+
         while (current) {
             std::cout << "Event " << index++ << ": " << current->name << "| year " << current->year << " - " << current->description << std::endl;
 
@@ -56,6 +58,7 @@ void InputEvents() {
             std::string fileName = filePath.string();
             std::replace(fileName.begin(), fileName.end(), ' ', '_');
             std::ofstream outFile(fileName);
+
             if (outFile) {
                 outFile << "Name Of Event:\n" << current->name << "\n";
                 outFile << "The Year It Takes Place:\n" << current->year << "\n";

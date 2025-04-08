@@ -1,9 +1,11 @@
 #include "EditEvents.h"
 #include "../TimeVaultersLibrary/EventUtils.h"
 #include "Output.h"
+#include "../TimeVaultersLibrary/InvalidInput.h"
 
 void editEvents() {
     while (true) {
+
         system("cls");
         std::string dirPath = "../Assets/HistoricEvents";
 
@@ -23,8 +25,8 @@ void editEvents() {
         if (current) {
             fileName = current->fileName;
         } else {
-            std::cout << "Invalid selection.\n";
-            return;
+            invalidInput();
+            mainMenu();
         }
 
         std::string filePath = dirPath + "/" + fileName;
@@ -32,14 +34,16 @@ void editEvents() {
         std::ifstream inputFile(filePath);
         std::vector<std::string> lines;
         std::string line;
+
         if (inputFile.is_open()) {
             while (std::getline(inputFile, line)) {
                 lines.push_back(line);
             }
             inputFile.close();
-        } else {
-            std::cout << "Unable to open file.\n";
-            return;
+        } 
+        else {
+            invalidInput();
+            mainMenu();
         }
 
         std::cout << "What do you want to edit?\n";
@@ -78,8 +82,8 @@ void editEvents() {
                 break;
             }
             default:
-                std::cout << "Invalid choice.\n";
-                return;
+                invalidInput();
+                mainMenu();
         }
 
         std::ofstream outputFile(filePath);

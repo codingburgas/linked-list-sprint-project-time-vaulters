@@ -1,5 +1,6 @@
 #include "SearchEvents.h"
 #include "../TimeVaultersLibrary/EventUtils.h"
+#include "../TimeVaultersLibrary/InvalidInput.h"
 #include "Output.h"
 
 void vaultSearch()
@@ -30,7 +31,7 @@ void vaultSearch()
         }
         else
         {
-            std::cout << "Invalid selection.\n";
+			invalidInput(); 
             mainMenu();
         }
         system("cls");
@@ -50,7 +51,6 @@ void vaultSearch()
         else
         {
             std::cout << "Unable to open file.\n";
-            mainMenu();
         }
 
         for (int i = 0; i < lines.size(); ++i){
