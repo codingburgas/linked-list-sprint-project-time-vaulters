@@ -1,6 +1,0 @@
-Name Of Event:
-whoooo
-The Year It Takes Place:
-2000
-Description:
-what the sigma

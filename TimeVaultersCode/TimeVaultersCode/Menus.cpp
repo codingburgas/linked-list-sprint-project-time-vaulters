@@ -6,6 +6,7 @@
 #include "DeleteEvent.h"
 #include "NewEvents.h"
 #include "EditEvents.h"
+#include "SearchEvents.h"
 
 void invalidInput()
 {
@@ -149,7 +150,7 @@ void mainMenu()
         switch (choice)
         {
         case 1:
-            //vaultSearch();
+            vaultSearch();
             break;
 
         case 2:

@@ -135,6 +135,7 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Menus.cpp" />
     <ClCompile Include="NewEvents.cpp" />
+    <ClCompile Include="SearchEvents.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DeleteEvent.h" />
@@ -142,6 +143,7 @@
     <ClInclude Include="HistoricEvent.h" />
     <ClInclude Include="NewEvents.h" />
     <ClInclude Include="Output.h" />
+    <ClInclude Include="SearchEvents.h" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\TimeVaultersLibrary\TimeVaultersLibrary.vcxproj">

@@ -93,7 +93,6 @@ void editEvents() {
             std::cout << "Unable to open file for writing.\n";
         }
 
-        // Clean up the linked list
         while (head) {
             EventNode* temp = head;
             head = head->next;
