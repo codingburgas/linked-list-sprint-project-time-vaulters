@@ -4,10 +4,11 @@
 
 void deleteEvent() {
     while (true) {
+
         std::string dirPath = "../Assets/HistoricEvents";
 
+        // Read event files and create a linked list of EventNode
         EventNode* head = readEventFiles(dirPath);
-
         displayEventList(head);
 
         std::cout << "Enter the number of the event to delete: ";
@@ -25,6 +26,8 @@ void deleteEvent() {
         }
 
         std::cout << "\n";
+
+        // Delete the event file if it exists
         if (!fileToDelete.empty()) {
             std::filesystem::remove(dirPath + "/" + fileToDelete);
             std::cout << "Event " << fileToDelete << " deleted successfully.\n";
@@ -33,6 +36,7 @@ void deleteEvent() {
             std::cout << "Event not found.\n";
         }
 
+        // Clean up the linked list
         while (head) {
             EventNode* temp = head;
             head = head->next;
@@ -44,7 +48,7 @@ void deleteEvent() {
         std::cin >> choice;
         system("cls");
         if (choice != 'y') {
-            mainMenu();
+            mainMenu(); // Return to the main menu if the user does not want to delete more events
         }
     }
 }

@@ -11,28 +11,26 @@
 
 void optionsMenu()
 {
-
+    // Open and read the OptionsMenu.txt file
     std::ifstream inputFile("../Assets/Menus/OptionsMenu.txt");
 
     char ch;
     int choice;
 
     while (inputFile.get(ch)) {
-
         std::cout << ch;
-    };
+    }
 
     std::cin >> choice;
 
+    // Check if the input is valid
     if (std::cin.fail())
     {
         invalidInput();
         optionsMenu();
     }
-
     else if (choice > 0 && choice < 5)
     {
-
         switch (choice)
         {
         case 1:
@@ -40,23 +38,21 @@ void optionsMenu()
             InputEvents();
             break;
 
-		case 2:
-			system("cls");
-			editEvents();
-			break;
+        case 2:
+            system("cls");
+            editEvents();
+            break;
 
         case 3:
             system("cls");
             deleteEvent();
             break;
 
-
         case 4:
             system("cls");
             mainMenu();
             break;
         }
-
     }
     else
     {
@@ -67,35 +63,32 @@ void optionsMenu()
 
 void developerPage()
 {
-
+    // Open and read the DeveloperPage.txt file
     std::ifstream inputFile("../Assets/Menus/DeveloperPage.txt");
 
     char ch;
     int choice;
 
     while (inputFile.get(ch)) {
-
         std::cout << ch;
-    };
+    }
 
     std::cin >> choice;
 
     if (std::cin.fail())
     {
-        invalidInput();
+        invalidInput(); 
         optionsMenu();
     }
-
     else if (choice == 1)
     {
         system("cls");
         mainMenu();
     }
-
     else
     {
         invalidInput();
-        developerPage();
+        developerPage(); 
     }
 }
 
@@ -107,22 +100,21 @@ void mainMenu()
     char ch;
     int choice;
 
+    // Print the content of the main menu
     while (inputFile.get(ch)) {
-
         std::cout << ch;
-    };
+    }
 
     std::cin >> choice;
 
+    // Check if the input is valid
     if (std::cin.fail())
     {
         invalidInput();
         mainMenu();
     }
-
     else if (choice > 0 && choice < 5)
     {
-
         switch (choice)
         {
         case 1:
@@ -130,14 +122,12 @@ void mainMenu()
             break;
 
         case 2:
-            system("cls");
-
-            optionsMenu();
+            system("cls");   
+            optionsMenu();   
             break;
 
         case 3:
             system("cls");
-
             developerPage();
             break;
         case 4:
@@ -146,7 +136,6 @@ void mainMenu()
             break;
         }
     }
-
     else
     {
         invalidInput();

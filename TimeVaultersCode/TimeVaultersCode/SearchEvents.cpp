@@ -22,20 +22,24 @@ void vaultSearch()
         std::string fileName;
         EventNode* current = head;
 
-        for (int i = 0; i < selectedIndex && current; ++i){
+        // Navigate to the selected event
+        for (int i = 0; i < selectedIndex && current; ++i) {
             current = current->next;
         }
 
+        // Check if the selected event exists
         if (current) {
             fileName = current->fileName;
         }
         else
         {
-			invalidInput(); 
+            invalidInput();
             mainMenu();
         }
+
         system("cls");
 
+        // Read and display the event content
         std::string filePath = dirPath + "/" + fileName;
         std::ifstream inputFile(filePath);
         std::vector<std::string> lines;
@@ -43,7 +47,7 @@ void vaultSearch()
 
         if (inputFile.is_open())
         {
-            while (std::getline(inputFile, line)){
+            while (std::getline(inputFile, line)) {
                 lines.push_back(line);
             }
             inputFile.close();
@@ -53,11 +57,13 @@ void vaultSearch()
             std::cout << "Unable to open file.\n";
         }
 
-        for (int i = 0; i < lines.size(); ++i){
+        // Output the event details
+        for (int i = 0; i < lines.size(); ++i) {
             std::cout << lines[i] << std::endl;
         }
 
-        while (head){
+        // Clean up event node memory
+        while (head) {
             EventNode* temp = head;
             head = head->next;
             delete temp;
@@ -67,8 +73,7 @@ void vaultSearch()
 
         char choice;
         std::cin >> choice;
-
-        if (choice != 'y'){
+        if (choice != 'y') {
             mainMenu();
         }
     }

@@ -24,10 +24,7 @@ namespace TimeVaultersTests
             event2->next = event3;
             event3->prev = event2;
 
-            // Head of the list
             HistoricEvent* head = event1;
-
-            // Call the BubbleSort function
             BubbleSort(head);
 
             // Verify the order of the events
