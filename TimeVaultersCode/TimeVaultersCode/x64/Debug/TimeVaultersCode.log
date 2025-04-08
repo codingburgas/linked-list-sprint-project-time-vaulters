@@ -1,4 +1,7 @@
-﻿  NewEvents.cpp
+﻿  DeleteEvent.cpp
+  EditEvents.cpp
+  Menus.cpp
   SearchEvents.cpp
   Generating Code...
+  LINK : C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaultersCode.exe not found or not built by the last incremental link; performing full link
   TimeVaultersCode.vcxproj -> C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaultersCode.exe

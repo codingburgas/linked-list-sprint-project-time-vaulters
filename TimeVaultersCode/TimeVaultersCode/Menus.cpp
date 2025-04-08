@@ -61,10 +61,10 @@ void optionsMenu()
     }
 }
 
-void developerPage()
+void contactUsMenu()
 {
-    // Open and read the DeveloperPage.txt file
-    std::ifstream inputFile("../Assets/Menus/DeveloperPage.txt");
+    // Open and read the ContactUs.txt file
+    std::ifstream inputFile("../Assets/Menus/ContactUsMenu.txt");
 
     char ch;
     int choice;
@@ -77,8 +77,8 @@ void developerPage()
 
     if (std::cin.fail())
     {
-        invalidInput(); 
-        optionsMenu();
+        invalidInput();
+        contactUsMenu();
     }
     else if (choice == 1)
     {
@@ -88,7 +88,7 @@ void developerPage()
     else
     {
         invalidInput();
-        developerPage(); 
+        contactUsMenu();
     }
 }
 
@@ -122,13 +122,13 @@ void mainMenu()
             break;
 
         case 2:
-            system("cls");   
-            optionsMenu();   
+            system("cls");
+            optionsMenu();
             break;
 
         case 3:
             system("cls");
-            developerPage();
+            contactUsMenu();
             break;
         case 4:
             system("cls");

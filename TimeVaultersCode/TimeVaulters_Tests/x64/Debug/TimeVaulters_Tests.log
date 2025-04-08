@@ -1,2 +1,4 @@
 ﻿  TimeVaulters_Tests.cpp
+  LINK : C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaulters_Tests.dll not found or not built by the last incremental link; performing full link
+     Creating library C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaulters_Tests.lib and object C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaulters_Tests.exp
   TimeVaulters_Tests.vcxproj -> C:\Users\kaloy\Documents\linked-list-sprint-project-time-vaulters\TimeVaultersCode\x64\Debug\TimeVaulters_Tests.dll
