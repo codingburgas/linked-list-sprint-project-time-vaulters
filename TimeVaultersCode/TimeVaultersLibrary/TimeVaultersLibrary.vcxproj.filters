@@ -21,12 +21,18 @@
     <ClCompile Include="EventUtils.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="InvalidInput.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TimeVaultersCode\BubbleSort.h">
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="EventUtils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="InvalidInput.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

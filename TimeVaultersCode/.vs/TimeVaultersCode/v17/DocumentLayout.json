@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\SearchEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\SearchEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\InvalidInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|solutionrelative:TimeVaultersLibrary\\InvalidInput.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\DeleteEvent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\DeleteEvent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\InvalidInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|solutionrelative:TimeVaultersLibrary\\InvalidInput.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\EditEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\EditEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\EventUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|solutionrelative:TimeVaultersLibrary\\EventUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\Menus.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -23,8 +23,16 @@
       "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\NewEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\EventUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{0F87FDCD-8A23-4681-B39F-A5CBB78A07A9}|TimeVaultersLibrary\\TimeVaultersLibrary.vcxproj|solutionrelative:TimeVaultersLibrary\\EventUtils.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\SearchEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\SearchEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\DeleteEvent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\DeleteEvent.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\EditEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|solutionrelative:TimeVaultersCode\\EditEvents.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FEFDBA4F-3979-43F5-A8D9-7533B821EB95}|TimeVaultersCode\\TimeVaultersCode.vcxproj|C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -86,11 +94,37 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
+              "Title": "InvalidInput.h",
+              "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\InvalidInput.h",
+              "RelativeDocumentMoniker": "TimeVaultersLibrary\\InvalidInput.h",
+              "ToolTip": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\InvalidInput.h",
+              "RelativeToolTip": "TimeVaultersLibrary\\InvalidInput.h",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-04-08T16:13:35.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "InvalidInput.cpp",
+              "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\InvalidInput.cpp",
+              "RelativeDocumentMoniker": "TimeVaultersLibrary\\InvalidInput.cpp",
+              "ToolTip": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\InvalidInput.cpp",
+              "RelativeToolTip": "TimeVaultersLibrary\\InvalidInput.cpp",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2025-04-08T16:13:18.126Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\main.cpp",
               "RelativeDocumentMoniker": "TimeVaultersCode\\main.cpp",
@@ -98,12 +132,11 @@
               "RelativeToolTip": "TimeVaultersCode\\main.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-07T23:03:42.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T23:03:42.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "SearchEvents.h",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\SearchEvents.h",
               "RelativeDocumentMoniker": "TimeVaultersCode\\SearchEvents.h",
@@ -115,13 +148,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 5,
               "Title": "SearchEvents.cpp",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\SearchEvents.cpp",
               "RelativeDocumentMoniker": "TimeVaultersCode\\SearchEvents.cpp",
               "ToolTip": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\SearchEvents.cpp",
               "RelativeToolTip": "TimeVaultersCode\\SearchEvents.cpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAAEEAAABCAAAAAAAAAA==",
+              "ViewState": "AgIAACoAAAAAAAAAAAAAAEgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-04-07T22:56:11.816Z",
               "EditorCaption": ""
@@ -141,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "EditEvents.h",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\EditEvents.h",
               "RelativeDocumentMoniker": "TimeVaultersCode\\EditEvents.h",
@@ -153,7 +186,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "EditEvents.cpp",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\EditEvents.cpp",
               "RelativeDocumentMoniker": "TimeVaultersCode\\EditEvents.cpp",
@@ -161,12 +194,11 @@
               "RelativeToolTip": "TimeVaultersCode\\EditEvents.cpp",
               "ViewState": "AgIAAC0AAAAAAAAAAAAAAFoAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-07T18:44:10.109Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-07T18:44:10.109Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "EventUtils.cpp",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\EventUtils.cpp",
               "RelativeDocumentMoniker": "TimeVaultersLibrary\\EventUtils.cpp",
@@ -179,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 15,
               "Title": "EventUtils.h",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersLibrary\\EventUtils.h",
               "RelativeDocumentMoniker": "TimeVaultersLibrary\\EventUtils.h",
@@ -191,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "DeleteEvent.cpp",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\DeleteEvent.cpp",
               "RelativeDocumentMoniker": "TimeVaultersCode\\DeleteEvent.cpp",
@@ -199,12 +231,11 @@
               "RelativeToolTip": "TimeVaultersCode\\DeleteEvent.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-04-04T12:41:35.533Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-04T12:41:35.533Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "DeleteEvent.h",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\DeleteEvent.h",
               "RelativeDocumentMoniker": "TimeVaultersCode\\DeleteEvent.h",
@@ -216,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "NewEvents.h",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\NewEvents.h",
               "RelativeDocumentMoniker": "TimeVaultersCode\\NewEvents.h",
@@ -228,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "pch.cpp",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaulters_Tests\\pch.cpp",
               "RelativeDocumentMoniker": "TimeVaulters_Tests\\pch.cpp",
@@ -240,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "TimeVaulters_Tests.cpp",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaulters_Tests\\TimeVaulters_Tests.cpp",
               "RelativeDocumentMoniker": "TimeVaulters_Tests\\TimeVaulters_Tests.cpp",
@@ -252,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "OptionsMenu.txt",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\Assets\\Menus\\OptionsMenu.txt",
               "RelativeDocumentMoniker": "Assets\\Menus\\OptionsMenu.txt",
@@ -260,12 +291,11 @@
               "RelativeToolTip": "Assets\\Menus\\OptionsMenu.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-26T16:25:04.668Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T16:25:04.668Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "DeveloperPage.txt",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\Assets\\Menus\\DeveloperPage.txt",
               "RelativeDocumentMoniker": "Assets\\Menus\\DeveloperPage.txt",
@@ -273,12 +303,11 @@
               "RelativeToolTip": "Assets\\Menus\\DeveloperPage.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-25T18:18:05.129Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T18:18:05.129Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "HistoricEvent.h",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\HistoricEvent.h",
               "RelativeDocumentMoniker": "TimeVaultersCode\\HistoricEvent.h",
@@ -286,12 +315,11 @@
               "RelativeToolTip": "TimeVaultersCode\\HistoricEvent.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-25T16:20:28.545Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-25T16:20:28.545Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 11,
               "Title": "MainMenu.txt",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\Assets\\Menus\\MainMenu.txt",
               "RelativeDocumentMoniker": "Assets\\Menus\\MainMenu.txt",
@@ -299,12 +327,11 @@
               "RelativeToolTip": "Assets\\Menus\\MainMenu.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-23T18:23:47.138Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T18:23:47.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Output.h",
               "DocumentMoniker": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\Output.h",
               "RelativeDocumentMoniker": "TimeVaultersCode\\Output.h",
@@ -312,8 +339,7 @@
               "RelativeToolTip": "TimeVaultersCode\\Output.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-23T17:06:29.357Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-23T17:06:29.357Z"
             },
             {
               "$type": "Document",
@@ -323,7 +349,7 @@
               "RelativeDocumentMoniker": "TimeVaultersCode\\Menus.cpp",
               "ToolTip": "C:\\Users\\kaloy\\Documents\\linked-list-sprint-project-time-vaulters\\TimeVaultersCode\\TimeVaultersCode\\Menus.cpp",
               "RelativeToolTip": "TimeVaultersCode\\Menus.cpp",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-23T17:03:01.398Z",
               "EditorCaption": ""

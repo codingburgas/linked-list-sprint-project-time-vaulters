@@ -130,10 +130,12 @@
   <ItemGroup>
     <ClCompile Include="..\TimeVaultersCode\BubbleSort.cpp" />
     <ClCompile Include="EventUtils.cpp" />
+    <ClCompile Include="InvalidInput.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\TimeVaultersCode\BubbleSort.h" />
     <ClInclude Include="EventUtils.h" />
+    <ClInclude Include="InvalidInput.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
